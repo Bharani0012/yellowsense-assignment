@@ -1,0 +1,99 @@
+.main-content {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  min-height: 100vh;
+}
+.loader-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* header styling */
+.route-link{
+  text-decoration: none;
+  background-color: grey;
+}
+.route-link:visited{
+  color: white;
+}
+.header-tags{
+  margin: 0.8rem;
+  background-color: grey;
+}
+.header-container {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  height: 40px;
+  z-index: 1000;
+}
+/* job section styling */
+.section-head{
+  text-align: center;
+  color: white;
+  margin: 15px;
+}
+.jobs-list{
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* job card stlyling */
+
+.job-card{
+  background-color: whitesmoke;
+  padding: 15px;
+  color: black;
+  width: 300px;
+  margin: 10px;
+  height: 300px;
+  border-radius: 10px;
+}
+.button{
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 3px;
+  border: 0px;
+}
+.add-button{
+  background-color: rgb(126, 238, 126);
+  color: white;
+}
+.details-button{
+  color: white;
+  background-color: rgb(69, 181, 255);
+}
+.remove-button{
+  background-color: rgb(246, 133, 133);
+  color: white;
+}
+.no-bookmarks-view{
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.job-detail{
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.not-found-route{
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
